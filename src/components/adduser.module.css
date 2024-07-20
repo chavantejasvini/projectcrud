@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#bg {
+    /* background-color: rgb(63, 48, 57); */
+    background-image: url('../assets/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* border: 1px solid red; */
+
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#leftContainer img {
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#leftContainer {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+        rgba(240, 46, 170, 0.3) 10px 10px,
+        rgba(240, 46, 170, 0.2) 15px 15px,
+        rgba(240, 46, 170, 0.1) 20px 20px,
+        rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#glass {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    z-index: 2;
+}
+
+#glass h1 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+#formContainer {
+    width: 50%;
+    height: inherit;
+}
+
+#formContainer h1 {
+    font-family: Georgia, Times, serif;
+}
+
+#navConatainer {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
